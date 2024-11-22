@@ -5,7 +5,7 @@ import { Projects } from "@/components/projects/Projects";
 
 export default function Home() {
   return (
-    <main>
+    <main className="dark:bg-gray-900">
       <NavbarComponent />
       <Projects />
       <FooterComponent />
