@@ -11,8 +11,8 @@ export function NavbarComponent() {
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"> Zabzul Supratman</span>
       </Navbar.Brand>
       <Navbar.Toggle />
-      <Navbar.Collapse>
-        <Navbar.Link href="#" active>
+      <Navbar.Collapse >
+        <Navbar.Link href="#" active >
           Home
         </Navbar.Link>
         <Navbar.Link as={Link} href="#">

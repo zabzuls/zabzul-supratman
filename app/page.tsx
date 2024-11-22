@@ -1,6 +1,7 @@
-import { FooterComponent } from "@/components/Footer/Footer";
-import { NavbarComponent } from "@/components/Navbar/NavbarComponent";
-import { Projects } from "@/components/Projects/Projects";
+
+import { FooterComponent } from "@/components/footer/FooterComponent";
+import { NavbarComponent } from "@/components/navbar/NavbarComponent";
+import { Projects } from "@/components/projects/Projects";
 
 export default function Home() {
   return (
