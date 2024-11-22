@@ -4,10 +4,11 @@ import { ThemeModeScript } from "flowbite-react";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const theme = "bg-[#020617]";
 
 export const metadata: Metadata = {
   title: "Zabzul Supratman",
-  description: "my portofolio",
+  description: "My portfolio",
 };
 
 export default function RootLayout({
@@ -20,7 +21,7 @@ export default function RootLayout({
       <head>
         <ThemeModeScript />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${theme}`}>{children}</body>
     </html>
   );
 }
