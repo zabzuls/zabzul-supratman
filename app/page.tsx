@@ -6,7 +6,7 @@ import { Projects } from "@/components/projects/Projects";
 
 export default function Home() {
   return (
-    <main className="m-4">
+    <main className="sm:m-4">
       <NavbarComponent />
       <HeaderComponent />
       <Projects />

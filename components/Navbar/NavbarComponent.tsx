@@ -6,9 +6,9 @@ import { Navbar } from "flowbite-react";
 
 export function NavbarComponent() {
   return (
-    <Navbar fluid rounded>
+    <Navbar fluid rounded className="bg-transparent">
       <Navbar.Brand as={Link} href="/">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"> Zabzul Supratman</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold text-white dark:text-white"> Zabzul Supratman</span>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse >
